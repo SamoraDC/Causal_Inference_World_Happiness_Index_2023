@@ -18,3 +18,6 @@ and the estimated causal effect that each numerical variable on happiness score.
 | freedom_to_make_life_choices | A measure of freedom in life choices |
 | generosity | A metric reflecting generosity |
 | perceptions_of_corruption | A measure of perception of corruption within a country |
+
+
+### Development of the Analysis
