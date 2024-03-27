@@ -1,4 +1,4 @@
-7<h1 align='center'> World Happiness Index 2023 Analysis </h1>
+<h1 align='center'> World Happiness Index 2023 Analysis </h1>
 
 <img src="C:\Users\Davi Samora\Downloads\Default_Create_a_image_to_my_project_that_analysis_what_make_a_2.jpg">
 
