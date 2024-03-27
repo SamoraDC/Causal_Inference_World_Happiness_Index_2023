@@ -1,4 +1,4 @@
-<h1 align='center'> World Happiness Index 2023 Analysis </h1>
+7<h1 align='center'> World Happiness Index 2023 Analysis </h1>
 
 <img src="C:\Users\Davi Samora\Downloads\Default_Create_a_image_to_my_project_that_analysis_what_make_a_2.jpg">
 
@@ -47,6 +47,10 @@ It Was used the Jupyter Notebook (Python IDE) to host the analysis, and was used
 ## Propose of the Analysis
 
 #### Bussiness Problem
-The Cabinet Sub Secretary for the State Minister wants to do a report to the Minister, to inform what makes the population happier. To do so, he contacts  
 
-The Propose is to show factors of the countries that are 
+The Cabinet Sub Secretary for the Foreign Relations Minister wants to do a report to the Minister, informing what makes the population happier. To do so, he contacts the Data Science Manager and explain he's demand.
+
+The Manager contacts his Data Scientist which is Specialized in Econometry, the Manager knows that he is really busy with the prediction of gas price project, but the demand came from the Cabinet of the Foreign Relations Minister. So, it is priority.
+
+Another thing that the Manager mentioned, is that the Sub Secretary needs this report ASAP, so you must hurry! 😢
+
