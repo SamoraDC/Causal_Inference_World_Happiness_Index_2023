@@ -30,9 +30,9 @@ It Was used the Jupyter Notebook (Python IDE) to host the analysis, and was used
 
 - NumPy offers comprehensive mathematical functions, random number generators, linear algebra routines, Fourier transforms, and more.
 
--  Matplotlib A plotting library that provides a MATLAB-like interface for making 2D plots from data. It is highly customizable and capable of creating static, animated, and interactive visualizations in Python.
+-  Matplotlib a plotting library that is highly customizable and capable of creating static, animated, and interactive visualizations in Python.
 
-- Seaborn Built on top of Matplotlib, Seaborn is a statistical data visualization library designed to make visualization a central part of exploring and understanding data.
+- Seaborn built on top of Matplotlib, Seaborn is a statistical data visualization library designed to make visualization a central part of exploring and understanding data.
 
 - SciPy is built on NumPy and provides additional functionality with submodules for optimization, integration, interpolation, eigenvalue problems, algebraic equations, differential equations, and others.
 
@@ -53,4 +53,6 @@ The Cabinet Sub Secretary for the Foreign Relations Minister wants to do a repor
 The Manager contacts his Data Scientist which is Specialized in Econometry, the Manager knows that he is really busy with the prediction of gas price project, but the demand came from the Cabinet of the Foreign Relations Minister. So, it is priority.
 
 Another thing that the Manager mentioned, is that the Sub Secretary needs this report ASAP, so you must hurry! 😢
+
+
 
