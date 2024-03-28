@@ -50,7 +50,7 @@ It Was used the Jupyter Notebook (Python IDE) to host the analysis, and was used
 
 The Cabinet Sub Secretary for the Foreign Relations Minister wants to do a report to the Minister, informing what makes the population happier. To do so, he contacts the Data Science Manager and explain he's demand.
 
-The Manager contacts his Data Scientist which is Specialized in Econometry, the Manager knows that he is really busy with the prediction of gas price project, but the demand came from the Cabinet of the Foreign Relations Minister. So, it is priority.
+The Manager contacts you, a Data Scientist Intern, the Manager knows that you are learning still, but he thinks that this is your chance to show what you made of.
 
 Another thing that the Manager mentioned, is that the Sub Secretary needs this report ASAP, so you must hurry! 😢
 
@@ -58,10 +58,10 @@ Another thing that the Manager mentioned, is that the Sub Secretary needs this r
 
 The objective of this project is to investigate the factors associated with national happiness scores and to provide insights that can inform the development of public policies aimed at promoting societal wellbeing. The project advocates for a comprehensive approach to policymaking, wherein economic prosperity, physical health, social cohesion, and individual freedoms are considered collectively in fostering national happiness. By recognizing the interplay between these variables, governments, organizations, and individuals can devise more effective strategies for cultivating happier and more resilient societies.
 
-#### Review
+#### Conclusion
 
 Moreover, the project employs causal inference techniques to assess the impact of various factors on happiness scores. The results indicate that social support and freedom to make life choices exert the most substantial positive effects on happiness, followed by economic indicators like GDP per capita and health-related factors such as healthy life expectancy. Additionally, perceptions of corruption, while only moderately correlated with happiness scores, demonstrate a notable causal effect.
 
-The robustness of these findings is validated through refutation tests, which evaluate the sensitivity of causal estimates to alternative scenarios. The high p-values obtained in these tests affirm the reliability of the original causal conclusions, bolstering confidence in the identified relationships between factors and happiness.
+The robustness of these findings is validated through refutation tests, which evaluate the sensitivity of causal estimates to alternative scenarios.
 
 In summary, the project underscores the complex nature of happiness and emphasizes the significance of considering a diverse array of factors in both policymaking and personal decision-making processes. By prioritizing social support, individual freedoms, economic prosperity, health outcomes, and integrity in governance, societies can aspire to enhance overall wellbeing and foster greater happiness among their citizens.
