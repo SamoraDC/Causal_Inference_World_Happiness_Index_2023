@@ -8,7 +8,7 @@ scholars, and those keen on exploring the nuances of happiness and welfare acros
 this dataset serves as a pivotal resource for comprehending the complexities of contentment and quality of life internationally. The propose of this Analysis is to both shows the variables that is correlated to higher happiness score, 
 and the estimated causal effect that each numerical variable on happiness score. 
 
-## DataFrame
+##  The DataFrame
 
 | Column | Description |
 | ----------- | ----------- |
@@ -46,19 +46,27 @@ It Was used the Jupyter Notebook (Python IDE) to host the analysis, and was used
 
 ## Propose of the Analysis
 
-#### Bussiness Problem
+### Bussiness Problem
 
-The Cabinet Sub Secretary for the Foreign Relations Minister wants to do a report to the Minister, informing what makes the population happier. To do so, he contacts the Data Science Manager and explain he's demand.
+The Foreign Relation Minister was invited to an Internacional Wellbeing Conference, and he was selected to do to a presentation of what makes a country happier. The Cabinet Sub Secretary for the Foreign Relations Minister, contacts the Data Science Manager of the Federal Government Secretary and explain the demand.
 
-The Manager contacts you, a Data Scientist Intern, the Manager knows that you are learning still, but he thinks that this is your chance to show what you made of.
+The Manager contacts you, a Data Scientist Intern, the Manager knows that you are still learning, and you think that he's crazy by choosing you, but he explains that it is your chance to show what you made of, and you accept the challenge (just like if you had another choice).
 
 Another thing that the Manager mentioned, is that the Sub Secretary needs this report ASAP, so you must hurry! 😢
 
-#### Project Objects
+### Project Objects
 
-The objective of this project is to investigate the factors associated with national happiness scores and to provide insights that can inform the development of public policies aimed at promoting societal wellbeing. The project advocates for a comprehensive approach to policymaking, wherein economic prosperity, physical health, social cohesion, and individual freedoms are considered collectively in fostering national happiness. By recognizing the interplay between these variables, governments, organizations, and individuals can devise more effective strategies for cultivating happier and more resilient societies.
+The objective is to investigate the factors associated with national happiness scores and provide insights that can inform the development of public policies aimed at promoting societal wellbeing. The project advocates for a comprehensive approach to policymaking, wherein economic prosperity, physical health, social cohesion, and individual freedoms are considered collectively in fostering national happiness. By recognizing the interplay between these variables, governments, organizations, and individuals can devise more effective strategies for cultivating happier and more resilient societies.
 
-#### Conclusion
+## Analysis
+
+The analysis starts with an E.D.A, where it seem the relationship between the variables, the variables statistics of the, the top 10 and least 10 countries sorted by happiness score. *** Insert Image***
+
+Ir shows the Pearson's correlation used in the heat map of all numeric variables *** Insert Image***
+
+
+
+## Conclusion
 
 Moreover, the project employs causal inference techniques to assess the impact of various factors on happiness scores. The results indicate that social support and freedom to make life choices exert the most substantial positive effects on happiness, followed by economic indicators like GDP per capita and health-related factors such as healthy life expectancy. Additionally, perceptions of corruption, while only moderately correlated with happiness scores, demonstrate a notable causal effect.
 
