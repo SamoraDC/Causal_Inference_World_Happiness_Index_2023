@@ -1,6 +1,7 @@
 <h1 align='center'> World Happiness Index 2023 Analysis </h1>
 
-**Insert happy**
+<img src="assets/happy.jpg">
+
 
 The Global Happiness Index through 2023 delivers an extensive and current analysis of happiness measures and the determinants affecting global well-being. Aimed at furnishing critical insights for decision-makers,
 scholars, and those keen on exploring the nuances of happiness and welfare across the globe, 
@@ -61,35 +62,76 @@ The objective is to investigate the factors associated with national happiness s
 
 ### EDA
 
-> The region that shows the biggest range between the minimum and maximum on Happiness Score is the Middle East and North Africa. And the countries that reveals this diference are neighbors. Israel has a Score of 7.473, and Lebanon with 2.392. a diference of 5.081. With these scores, Israel is the Fourth happiest country in 2023, and Lebanon is  the penultimate.**Insert israel and lebanon and map of countries**
+#### Israel and Lebanon Happiness Difference
 
-> the top 10 and least 10 countries sorted by happiness score. **Insert top and least**
+> In our exploration of the World Happiness Index, we've uncovered that the Middle East and North Africa exhibit the most significant disparity in happiness scores. Interestingly, the countries showcasing this stark contrast are neighboring nations. Israel stands out with a happiness score of 7.473, making it the fourth happiest country in 2023. On the other hand, Lebanon's score of 2.392 places it as the second-to-last in the ranking, highlighting a remarkable difference of 5.081 points between the two. This variance between adjacent countries underscores the complex interplay of factors influencing national happiness levels.
 
-> It shows that except the North America and ANZ, the Western Europe, that are the "happier" regions, and Sub-Saharar  Africa and South Asia, are the "less happy" regions, all the others regions presents a similar happiness score. **Insert happiness mean** 
+Israel 
 
-> Happiness Score: The distribution appears to be slightly left-skewed, indicating that more countries have happiness scores above the mean. Most countries cluster around the middle to high range of the happiness scale.
-GDP per Capita: This variable shows a broad spread with a peak towards the lower end, suggesting that while many   countries have lower GDP per capita, there's a significant tail extending towards higher values. This indicates    economic disparities across countries.
-Social Support: The distribution is slightly left-skewed, similar to happiness score, implying that most countries report higher levels of social support.
-Healthy Life Expectancy: Shows a somewhat normal distribution but with a slight left skew. It suggests that while  many countries enjoy moderate to high life expectancy, a few countries are significantly lagging behind.
-Freedom to Make Life Choices: The distribution is more uniform but slightly peaks towards the higher end,indicating that many countries enjoy a relatively high level of freedom.
-Generosity: Appears to be right-skewed, with most countries showing lower levels of generosity but with a long tail towards higher generosity scores.
-Perceptions of Corruption: Heavily right-skewed, with many countries perceiving low levels of corruption, but with a long tail indicating that some countries perceive very high levels of corruption. **Insert Distribuition**
+<img src="assets/Israel.png">
 
-> Ir shows the Pearson's correlation used in the heat map of all numeric variables **Insert heatmap**
+Lebanon
 
-> The plot above shows all the strongest correlation varialbes with the Hapiness Score. It appers that the Social Support, GDP per Capita, and Freedom to Make Life Choises do a strong positive effect in Happiness Score. Showing this four variables may be the cause of the happiness score variance.**Insert scatter**
+<img src="assets/Lebanon.png">
+
+
+The Map shows the visual discrepancy of happinesse index between Israel and Lebanon
+
+<img src="assets/Israel and lebanon map.png">
+
+#### Top and Least countries
+
+> the top 10 and least 10 countries sorted by happiness score in the 2023 year.
+
+<img src="assets/top and least.png">
+
+#### Happiness Mean by Region
+
+> Our analysis indicates that, with the exception of North America and Australia & New Zealand (ANZ), as well as Western Europe—which are identified as the "happier" regions—and Sub-Saharan Africa and South Asia, recognized as the "less happy" regions, the happiness scores across all other regions exhibit a notable similarity. This finding suggests a level of uniformity in happiness scores outside the extremes of the happiness spectrum, highlighting a middle ground where most other regions align in terms of their happiness levels.
+
+<img src="assets/Avarage Happiness.png">
+
+#### Distribuition 
+
+> Happiness Score: Leaning towards a less cheerful revelation, the happiness score distribution hints at a world where, despite a lean towards more content nations, the pursuit of happiness is unevenly distributed. A gloomy reminder that not all countries share in the global smile.
+
+> GDP per Capita: Peering into the economic divide, it's clear that wealth is a privilege enjoyed by few. The majority trudge along at the lower end of prosperity, painting a stark picture of the global financial chasm.
+
+> Social Support: A silver lining in an otherwise cloudy sky, the tilt towards better social support across most countries offers a glimmer of hope. Yet, the uniformity in support remains a distant dream for many.
+
+> Healthy Life Expectancy: The health landscape reveals a moderate lean towards better life expectancy, yet the shadow of nations left behind looms large. It's a harsh reminder of the health disparities that plague our world.
+
+> Freedom to Make Life Choices: While a semblance of freedom to choose one’s life path is visible, the distribution's slight peak at the higher end whispers the sad truth of freedoms not universally felt.
+
+> Generosity: A skewed view towards lower generosity unearths the harsh reality of a world where selflessness is not as widespread as one might hope, with only a faint trail of countries showing higher levels of giving.
+
+> Perceptions of Corruption: The heavy skew towards seeing low levels of corruption, contrasted by a significant tail of countries perceiving rampant corruption, unveils a world grappling with trust issues, where faith in institutions is often a coin toss.
+
+<img src="assets/distribuition.png">
+
+#### Correlation Map
+
+> This heatmap helps us see how all these different things are connected and how they can influence how happy a country is. It's like a guide that shows us what makes life better for people living in different places.
+
+<img src="assets/heatmap.png">
+
+#### Scatter Plot of the Highiest Happiness Correlation Feactures
+
+> The chart we looked at shows which things are most connected to how happy countries are. It seems that having good support from friends or family, being wealthier (which is what "GDP per Capita" means), and being free to make your own choices all really help make a country's happiness score go up. This means these three things could be big reasons why some countries are happier than others.
+
+<img src="assets/scatter.png">
 
 ### Statistical Inference
 
-> Ordinary Least Squares
-It is a statistical method used to estimate the parameters of a linear regression model. This method seeks to minimize the sum of the squares of the differences between the observed values of the dependent variable and those predicted by the linear model.
-Principles of OLS Regression
-Multiple Linear Model: OLS applies to models where the relationship between the dependent variable and one or more independent variables is linear. The model can be expressed as:
-𝑌=𝛽0+𝛽1𝑋1+𝛽2𝑋2+…+𝛽𝑛𝑋𝑛+𝜀
-Minimization of the Sum of Squared Residuals: The objective of OLS regression is to find the values of β that minimize the sum of the squared residuals (differences between the observed and predicted values). Mathematically, this is expressed as: 
-min∑𝑖=1𝑛(𝑌𝑖−𝑌̂ 𝑖)2 
+#### Ordinary Least Squares
 
-**Insert OLS**
+> Explaning the OLS
+
+> Imagine you're trying to draw a straight line through a bunch of dots scattered on a graph. These dots represent real data points, and your goal is to draw a line that is as close as possible to most of them. This is what OLS Regression, or Ordinary Least Squares Regression, does in a fancy math way. 
+So, in super simple terms, OLS Regression is like using math to draw the best possible line through a scatter plot, helping us understand how different things are connected.
+
+<img src="assets/OLS.png">
+
 
 > R-squared: 0.856 means that 85.6% of the variability in happiness score are explained by the included independent  variables. This is quite high, suggesting the model does a good job at explaining happiness scores.
 Adj. R-squared: 0.838 adjusts the R² based on the number of predictors in the model, giving a more accurate measure for models with multiple variables. Still, it's quite high, reinforcing the model's effectiveness.
@@ -100,7 +142,8 @@ This analysis suggests an approach to the development of public policies, where 
 
 ### Dowhy Library
 
-**Insert Dowhy**
+<img src="assets/dowhy.png">
+
 
 Modeling
 
@@ -133,7 +176,8 @@ The final step in the causal inference process is to test the robustness of your
 
 Placebo Treatment Test: If replacing the actual treatment with a placebo does not significantly change the outcome, it raises questions about the causal relationship.
 
-**Insert effect on happiness**
+<img src="assets/effect on happiness.png">
+
 
 
 ## Conclusion
