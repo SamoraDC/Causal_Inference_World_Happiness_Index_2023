@@ -167,7 +167,9 @@ The Map shows the visual discrepancy of happinesse index between Israel and Leba
 
 > Notation: Let's denote treatment by T, outcome by Y, and any confounders (variables that influence both treatment and outcome) by X or W.
 
+```
 𝑋→𝑇→𝑌 
+```
 
 #### Identification
 
