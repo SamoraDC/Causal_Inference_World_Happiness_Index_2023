@@ -177,7 +177,9 @@ The Map shows the visual discrepancy of happinesse index between Israel and Leba
 
 > ATE Definition: The average difference in outcome if all units had received the treatment versus if none had.
 
+```
 ATE=𝐸[𝑌|𝑑𝑜(𝑇=1)]−𝐸[𝑌|𝑑𝑜(𝑇=0)]
+```
 
 > Here, E[ ] denotes the expected value, and do( ) represents a do-operation, indicating intervention by setting T to a particular value.
 
@@ -187,7 +189,9 @@ ATE=𝐸[𝑌|𝑑𝑜(𝑇=1)]−𝐸[𝑌|𝑑𝑜(𝑇=0)]
 
 > Denote the propensity score, then the ATE can be estimated by matching or weighting observations by
 
+```
 𝑒(𝑋)=𝑃(𝑇=1|𝑋)(𝑒(𝑋).
+```
 
 #### Refutation
 
