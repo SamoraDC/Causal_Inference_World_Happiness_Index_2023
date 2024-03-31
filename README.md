@@ -127,16 +127,19 @@ The Map shows the visual discrepancy of happinesse index between Israel and Leba
 
 > Explaning the OLS
 
-> Imagine you're trying to draw a straight line through a bunch of dots scattered on a graph. These dots represent real data points, and your goal is to draw a line that is as close as possible to most of them. This is what OLS Regression, or Ordinary Least Squares Regression, does in a fancy math way. 
-So, in super simple terms, OLS Regression is like using math to draw the best possible line through a scatter plot, helping us understand how different things are connected.
+> Imagine you're trying to draw a straight line through a bunch of dots scattered on a graph. These dots represent real data points, and your goal is to draw a line that is as close as possible to most of them. This is what OLS Regression, or Ordinary Least Squares Regression, does in a fancy math way. OLS Regression is like using math to draw the best possible line through a scatter plot, helping us understand how different things are connected.
 
 <img src="assets/OLS.png">
 
+> R-squared and Adj. R-squared like they're ways to score how good a model is at predicting happiness based on the different factors of the dataset.
 
-> R-squared: 0.856 means that 85.6% of the variability in happiness score are explained by the included independent  variables. This is quite high, suggesting the model does a good job at explaining happiness scores.
-Adj. R-squared: 0.838 adjusts the R² based on the number of predictors in the model, giving a more accurate measure for models with multiple variables. Still, it's quite high, reinforcing the model's effectiveness.
-The OLS does not Shows the Causal, but we can tell that high Social Support, GDP per Capita, Healthy life Expectancy, and Freedom to make life Choices are correlated to a higher Happiness Score
-This analysis suggests an approach to the development of public policies, where economic, physical health, social  support, and individual freedom are considered together in promoting national happiness. This perspective can guide governments, organizations, and individuals in implementing more effective strategies for building happier and more resilient societies.
+> R-squared of 0.856: This is like saying, "Our model is 85.6% good at predicting how happy countries are based on the factors we chose, in this case, all of then.
+
+> Adj. R-squared of 0.838: It adjusts the score considering how many factors we're looking at. It tells us that even after adjusting for how many things we're trying to look at once, our model is still strong.
+
+> It's important to remember that just because two things move together, it doesn't mean one causes the other. But, we can say that things like strong social support, being wealthier, living longer and healthier lives, and having the freedom to make choices, all dance together with being happier.
+
+> It points out that if we care about making societies happier, we should look at improving the economy, health care, how much support people feel they have, and ensuring they're free to choose their paths. These insights can help leaders and communities figure out how to make policies or take actions that might lead to happier lives
 
 ## Causal Inference
 
