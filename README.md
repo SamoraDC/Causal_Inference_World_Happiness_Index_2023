@@ -121,6 +121,19 @@ The Map shows the visual discrepancy of happinesse index between Israel and Leba
 
 <img src="assets/scatter.png">
 
+#### Analysis by Region
+
+Happiness Across Different Places: Different places in the world have different levels of happiness. Places like North America, Australia, New Zealand, and Western Europe are the happiest. This shows that places with more money tend to be happier.
+
+Money and Happiness: Places with more money, or a higher GDP per capita, usually have better stuff like roads, hospitals, schools, etc. This leads to people being happier. In terms of money, East Asia is pretty close to North America, Australia, New Zealand, and Western Europe.
+
+Living a Long and Healthy Life: Just like with happiness and money, how long and healthy people's lives are varies a lot from place to place. Places with more money and happier people also tend to live longer and healthier lives. East Asia does really well in this, only behind Western Europe.
+
+Having Support from Others: In places where the economy is strong, people usually have a lot of social support. However, even in places where there's not a lot of money, like the Commonwealth of Independent States, people still have a good amount of social support.
+
+<img src="assets/feactures by region.png">
+
+
 ### Statistical Inference
 
 #### Ordinary Least Squares
@@ -148,7 +161,7 @@ The Map shows the visual discrepancy of happinesse index between Israel and Leba
 <img src="assets/dowhy.png">
 
 
-Modeling
+#### Modeling
 
 The first step in causal inference is to model your problem, typically using a Directed Acyclic Graph (DAG). A DAG helps in visualizing the causal relationships among variables.
 
@@ -156,7 +169,7 @@ Notation: Let's denote treatment by T, outcome by Y, and any confounders (variab
 
 𝑋→𝑇→𝑌 
 
-Identification
+#### Identification
 
 Once you have a model, the next step is identifying the causal effect you're interested in estimating. This usually involves assumptions like ignorability, which states that there are no unmeasured confounders. The Average Treatment Effect (ATE) is a common target for identification.
 
@@ -165,7 +178,8 @@ ATE Definition: The average difference in outcome if all units had received the 
 ATE=𝐸[𝑌|𝑑𝑜(𝑇=1)]−𝐸[𝑌|𝑑𝑜(𝑇=0)]
 
 Here, E[ ] denotes the expected value, and do( ) represents a do-operation, indicating intervention by setting T to a particular value.
-Estimate
+
+#### Estimate
 
 After identifying the causal effect, the next step is to estimate it from the data. This involves statistical methods that adjust for the confounders to isolate the effect of the treatment from other influences.
 
@@ -173,7 +187,7 @@ denote the propensity score, then the ATE can be estimated by matching or weight
 
 𝑒(𝑋)=𝑃(𝑇=1|𝑋)(𝑒(𝑋).
 
-Refutation
+#### Refutation
 
 The final step in the causal inference process is to test the robustness of your estimated effect. DoWhy offers several refutation methods, like adding a random common cause or replacing the treatment with a random (placebo) treatment.
 
@@ -181,12 +195,8 @@ Placebo Treatment Test: If replacing the actual treatment with a placebo does no
 
 <img src="assets/effect on happiness.png">
 
+The study shows that having social support and being free to make your own life choices are really big deals for happiness. One surprising thing is that how people view corruption (like if population think they're beeing robbed by the government members) only seems a little related to happiness, but when we looked closer, it actually has a pretty big impact on Hapiness, even higher than the GDP per Capita.
 
+<h1 align='center'> Conclusion </h1>
 
-## Conclusion
-
-Moreover, the project employs causal inference techniques to assess the impact of various factors on happiness scores. The results indicate that social support and freedom to make life choices exert the most substantial positive effects on happiness, followed by economic indicators like GDP per capita and health-related factors such as healthy life expectancy. Additionally, perceptions of corruption, while only moderately correlated with happiness scores, demonstrate a notable causal effect.
-
-The robustness of these findings is validated through refutation tests, which evaluate the sensitivity of causal estimates to alternative scenarios.
-
-In summary, the project underscores the complex nature of happiness and emphasizes the significance of considering a diverse array of factors in both policymaking and personal decision-making processes. By prioritizing social support, individual freedoms, economic prosperity, health outcomes, and integrity in governance, societies can aspire to enhance overall wellbeing and foster greater happiness among their citizens.
+The study found that being free to choose how you live your life and having support from others makes the biggest difference in how happy people are. Having a good economy and being healthy also matter, but not as much. Being generous makes people a bit happier, too. Also, when people think there is less cheating or dishonesty around, they tend to be happier. This shows us that happiness comes from many different things, and when making decisions or policies, it's important to think about all these factors to make people's lives better.
