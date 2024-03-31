@@ -123,13 +123,13 @@ The Map shows the visual discrepancy of happinesse index between Israel and Leba
 
 #### Analysis by Region
 
-Happiness Across Different Places: Different places in the world have different levels of happiness. Places like North America, Australia, New Zealand, and Western Europe are the happiest. This shows that places with more money tend to be happier.
+> Happiness Across Different Places: Different places in the world have different levels of happiness. Places like North America, Australia, New Zealand, and Western Europe are the happiest. This shows that places with more money tend to be happier.
 
-Money and Happiness: Places with more money, or a higher GDP per capita, usually have better stuff like roads, hospitals, schools, etc. This leads to people being happier. In terms of money, East Asia is pretty close to North America, Australia, New Zealand, and Western Europe.
+> Money and Happiness: Places with more money, or a higher GDP per capita, usually have better stuff like roads, hospitals, schools, etc. This leads to people being happier. In terms of money, East Asia is pretty close to North America, Australia, New Zealand, and Western Europe.
 
-Living a Long and Healthy Life: Just like with happiness and money, how long and healthy people's lives are varies a lot from place to place. Places with more money and happier people also tend to live longer and healthier lives. East Asia does really well in this, only behind Western Europe.
+> Living a Long and Healthy Life: Just like with happiness and money, how long and healthy people's lives are varies a lot from place to place. Places with more money and happier people also tend to live longer and healthier lives. East Asia does really well in this, only behind Western Europe.
 
-Having Support from Others: In places where the economy is strong, people usually have a lot of social support. However, even in places where there's not a lot of money, like the Commonwealth of Independent States, people still have a good amount of social support.
+> Having Support from Others: In places where the economy is strong, people usually have a lot of social support. However, even in places where there's not a lot of money, like the Commonwealth of Independent States, people still have a good amount of social support.
 
 <img src="assets/feactures by region.png">
 
@@ -163,40 +163,40 @@ Having Support from Others: In places where the economy is strong, people usuall
 
 #### Modeling
 
-The first step in causal inference is to model your problem, typically using a Directed Acyclic Graph (DAG). A DAG helps in visualizing the causal relationships among variables.
+> The first step in causal inference is to model your problem, typically using a Directed Acyclic Graph (DAG). A DAG helps in visualizing the causal relationships among variables.
 
-Notation: Let's denote treatment by T, outcome by Y, and any confounders (variables that influence both treatment and outcome) by X or W.
+> Notation: Let's denote treatment by T, outcome by Y, and any confounders (variables that influence both treatment and outcome) by X or W.
 
 𝑋→𝑇→𝑌 
 
 #### Identification
 
-Once you have a model, the next step is identifying the causal effect you're interested in estimating. This usually involves assumptions like ignorability, which states that there are no unmeasured confounders. The Average Treatment Effect (ATE) is a common target for identification.
+> Once you have a model, the next step is identifying the causal effect you're interested in estimating. This usually involves assumptions like ignorability, which states that there are no unmeasured confounders. The Average Treatment Effect (ATE) is a common target for identification.
 
-ATE Definition: The average difference in outcome if all units had received the treatment versus if none had.
+> ATE Definition: The average difference in outcome if all units had received the treatment versus if none had.
 
 ATE=𝐸[𝑌|𝑑𝑜(𝑇=1)]−𝐸[𝑌|𝑑𝑜(𝑇=0)]
 
-Here, E[ ] denotes the expected value, and do( ) represents a do-operation, indicating intervention by setting T to a particular value.
+> Here, E[ ] denotes the expected value, and do( ) represents a do-operation, indicating intervention by setting T to a particular value.
 
 #### Estimate
 
-After identifying the causal effect, the next step is to estimate it from the data. This involves statistical methods that adjust for the confounders to isolate the effect of the treatment from other influences.
+> After identifying the causal effect, the next step is to estimate it from the data. This involves statistical methods that adjust for the confounders to isolate the effect of the treatment from other influences.
 
-denote the propensity score, then the ATE can be estimated by matching or weighting observations by
+> Denote the propensity score, then the ATE can be estimated by matching or weighting observations by
 
 𝑒(𝑋)=𝑃(𝑇=1|𝑋)(𝑒(𝑋).
 
 #### Refutation
 
-The final step in the causal inference process is to test the robustness of your estimated effect. DoWhy offers several refutation methods, like adding a random common cause or replacing the treatment with a random (placebo) treatment.
+> The final step in the causal inference process is to test the robustness of your estimated effect. DoWhy offers several refutation methods, like adding a random common cause or replacing the treatment with a random (placebo) treatment.
 
-Placebo Treatment Test: If replacing the actual treatment with a placebo does not significantly change the outcome, it raises questions about the causal relationship.
+> Placebo Treatment Test: If replacing the actual treatment with a placebo does not significantly change the outcome, it raises questions about the causal relationship.
 
 <img src="assets/effect on happiness.png">
 
-The study shows that having social support and being free to make your own life choices are really big deals for happiness. One surprising thing is that how people view corruption (like if population think they're beeing robbed by the government members) only seems a little related to happiness, but when we looked closer, it actually has a pretty big impact on Hapiness, even higher than the GDP per Capita.
+> The study shows that having social support and being free to make your own life choices are really big deals for happiness. One surprising thing is that how people view corruption (like if population think they're beeing robbed by the government members) only seems a little related to happiness, but when we looked closer, it actually has a pretty big impact on Hapiness, even higher than the GDP per Capita.
 
 <h1 align='center'> Conclusion </h1>
 
-The study found that being free to choose how you live your life and having support from others makes the biggest difference in how happy people are. Having a good economy and being healthy also matter, but not as much. Being generous makes people a bit happier, too. Also, when people think there is less cheating or dishonesty around, they tend to be happier. This shows us that happiness comes from many different things, and when making decisions or policies, it's important to think about all these factors to make people's lives better.
+> The study found that being free to choose how you live your life and having support from others makes the biggest difference in how happy people are. Having a good economy and being healthy also matter, but not as much. Being generous makes people a bit happier, too. Also, when people think there is less cheating or dishonesty around, they tend to be happier. This shows us that happiness comes from many different things, and when making decisions or policies, it's important to think about all these factors to make people's lives better.
