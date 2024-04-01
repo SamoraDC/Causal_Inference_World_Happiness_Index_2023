@@ -3,10 +3,7 @@
 <img src="assets/happy.jpg">
 
 
-The Global Happiness Index through 2023 delivers an extensive and current analysis of happiness measures and the determinants affecting global well-being. Aimed at furnishing critical insights for decision-makers,
-scholars, and those keen on exploring the nuances of happiness and welfare across the globe, 
-this dataset serves as a pivotal resource for comprehending the complexities of contentment and quality of life internationally. The propose of this Analysis is to both shows the variables that is correlated to higher happiness score, 
-and the estimated causal effect that each numerical variable on happiness score. 
+The Global Happiness Index for 2023 offers a detailed look at what makes people happy around the world and why. It's designed to help leaders, researchers, and anyone interested in understanding happiness and quality of life better. This report is very important for learning about the different factors that can influence how happy people are in different places. It aims to show which things are linked to greater happiness and how much each factor can change happiness levels.
 
 ##  The DataFrame
 
@@ -26,21 +23,21 @@ and the estimated causal effect that each numerical variable on happiness score.
 
 It Was used the Jupyter Notebook (Python IDE) to host the analysis, and was used the following Python Libraries:
 
-- Pandas is a library providing high-performance, easy-to-use data structures, and data analysis tools. It is particularly suited for working with tabular data (similar to Excel spreadsheets).
+> Pandas: This is a tool that helps manage and analyze data. Think of it as a powerful version of Excel for coding.
 
-- NumPy offers comprehensive mathematical functions, random number generators, linear algebra routines, Fourier transforms, and more.
+> NumPy: This library helps with math operations, generating random numbers, and more complex math stuff.
 
--  Matplotlib a plotting library that is highly customizable and capable of creating static, animated, and interactive visualizations in Python.
+> Matplotlib: A tool for making charts and graphs. It's very flexible and lets you customize your visuals a lot.
 
-- Seaborn built on top of Matplotlib, Seaborn is a statistical data visualization library designed to make visualization a central part of exploring and understanding data.
+> Seaborn: This works with Matplotlib and makes it easier to generate pretty and informative statistical charts.
 
-- SciPy is built on NumPy and provides additional functionality with submodules for optimization, integration, interpolation, eigenvalue problems, algebraic equations, differential equations, and others.
+> SciPy: Built on NumPy, it adds more specific tools for scientific calculations like solving equations and other mathematical problems.
 
--  Statsmodels focuses on statistical models, hypothesis tests, and data exploration. Statsmodels is great for conducting statistical tests and inferences.
+> Statsmodels: This is for doing statistical tests and exploring data. It's great for understanding your data's story through numbers.
 
-- Plotly.express a high-level API for creating figures. It is designed to make the creation of complex, beautiful visualizations easy with a simple syntax, that can be manipulated live.
+> Plotly.express: This is for making complex and interactive charts easily with code that's simple to write and understand.
 
-- DoWhy a library for causal inference that simplifies the use of advanced causal inference techniques. It provides a principled way to model your assumptions and estimate causal effects based on those assumptions, making it easier to apply causal analysis in practice.
+> DoWhy: A tool for understanding cause and effect in your data. It helps you to clearly define your assumptions and figure out the impact of different factors based on those assumptions.
 
 
 
