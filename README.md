@@ -48,11 +48,11 @@ It Was used the Jupyter Notebook (Python IDE) to host the analysis, and was used
 
 ### Bussiness Problem
 
-The Foreign Relation Minister was invited to an Internacional Wellbeing Conference, and he was selected to do to a presentation of what makes a country happier. The Cabinet Sub Secretary for the Foreign Relations Minister, contacts the Data Science Manager of the Federal Government Secretary and explain the demand.
+The **Foreign Relations Minister** was invited to an Internacional Wellbeing Conference, and he was selected to do a presentation of what makes a country happier. The **Cabinet Sub Secretary** for the Foreign Relations Minister knows someone who have the knowleadge to solve this problem, so, he contacts the Data Science **Manager** of the Federal Government Secretary and explain the demand of the **Minister**.
 
-The Manager contacts you, a Data Scientist Intern, the Manager knows that you are still learning, and you think that he's crazy by choosing you, but he explains that it is your chance to show what you made of, and you accept the challenge (just like if you had another choice).
+After the meeting, the **Manager** understand that the problem is more on the Econometry field, he also remembered that he hired someone whom had completed the Aplied Econometry Course from the *São Paulo* University, and this person is you, a **Data Scientist Intern**. The **Manager** knows that you are still learning, and you think that he's crazy by choosing you to do a project for the **Foreign Relations Minister**, but he explains that it is your chance to show what you made of, and you accept the challenge (just like if you had another choice).
 
-Another thing that the Manager mentioned, is that the Sub Secretary needs this report ASAP, so you must hurry! 😢
+Another thing that the Manager mentioned, is that the **Sub Secretary** needs this report ASAP, so you must hurry! 😧
 
 ### Project Objects
 
