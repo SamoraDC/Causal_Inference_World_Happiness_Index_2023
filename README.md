@@ -3,7 +3,7 @@
 <img src="assets/happy.jpg">
 
 
-The Global Happiness Index for 2023 offers a detailed look at what makes people happy around the world and why. It's designed to help leaders, researchers, and anyone interested in understanding happiness and quality of life better. This report is very important for learning about the different factors that can influence how happy people are in different places. It aims to show which things are linked to greater happiness and how much each factor can change happiness levels.
+The Global Happiness Index for 2023 Analysis offers a detailed look at what makes people happy around the world and why. It's designed to help leaders, researchers, and anyone interested in understanding happiness and quality of life better. This report is very important for learning about the different factors that can influence how happy people are in different places. It aims to show which things are linked to greater happiness and how much each factor can change happiness levels.
 
 ##  The DataFrame
 
